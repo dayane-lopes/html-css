@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20 px;
+}
+h1 {
+    color: white;
+    background-color: rgba(156, 207, 236, 0.863);
+}
+
+
+p {
+    text-align: justify;
