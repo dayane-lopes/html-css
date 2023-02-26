@@ -11,7 +11,28 @@
             height: 500px;
             font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            background-color: rgba(128, 128, 128, 0.061);
+            position: relative;
+        }
+
+        caption {
+            background-color: black;
+            color: white;
+            padding: 8px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 1px;
+            background-color: rgb(162, 225, 204);
+
+        }
+
+        tbody > tr:nth-child(2n-1) {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
         }
 
         td, th {
@@ -44,10 +65,11 @@
    -->
 
    <table>
+    <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
@@ -136,10 +158,30 @@
 
         <tfoot>
             <tr>
-                <td ><strong>Total da População</strong></td>
+                <th scope="row" ><strong>Total da População</strong></td>
                 <td class="numero">190 755 799</td>
             </tr>
         </tfoot>    
     </table>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dicta non voluptatum maxime quo sit molestias officiis cupiditate, ullam quod, sapiente voluptatibus? Blanditiis vel tempore temporibus mollitia recusandae magnam odio! <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium libero, odio nisi voluptatem quae non hic iure impedit, itaque blanditiis nihil a. Dolores dolorum perspiciatis totam id eum possimus.
+    
+
+    </p>
 </body>
 </html>
